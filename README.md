@@ -12,17 +12,28 @@ Tested with ESP8266 and ESP32.
 Connection:
 
  GND---|12 11|---GND
+ 
 /RST---|10 09|--- D0
+
  CLK---|08 07|--- NC
+ 
  NC ---|06 05|--- NC
+ 
  NC ---|04 03|--- NC
+ 
  VIN---|02 01|---VIN
  
+ 
  Connection for ESP8266:
+ 
  /RST -> PIN2
+ 
   CLK -> PIN14(SCK)
+  
   D0  -> PIN13(MOSI)
+  
   GND -> GND
+  
   VIN -> External power supply, do not connect to +5V od the ESP.
   
  VIN depends on the type of display. Please refer to the datasheet. For some of displays it requires +12V and +5V.
