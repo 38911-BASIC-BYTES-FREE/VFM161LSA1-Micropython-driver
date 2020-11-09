@@ -24,7 +24,7 @@ Connection:
   D0  -> PIN13(MOSI)
   GND -> GND
   VIN -> External power supply, do not connect to +5V od the ESP.
- 
+  
  VIN depends on the type of display. Please refer to the datasheet. For some of displays it requires +12V and +5V.
  
 Usage example:
