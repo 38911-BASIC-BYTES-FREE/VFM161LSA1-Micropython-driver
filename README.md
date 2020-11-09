@@ -7,6 +7,7 @@ This is a micropython driver for the old fruit machine displays:
 - PCB1613
 - VAF169 
 - PV0202-001-F
+
 Tested with ESP8266 and ESP32.
 
 Connection:
